@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/countriesApi/static/js/main.34400e98.chunk.js",
-    "main.js.map": "/countriesApi/static/js/main.34400e98.chunk.js.map",
+    "main.js": "/countriesApi/static/js/main.b59d7ccc.chunk.js",
+    "main.js.map": "/countriesApi/static/js/main.b59d7ccc.chunk.js.map",
     "runtime-main.js": "/countriesApi/static/js/runtime-main.697788a5.js",
     "runtime-main.js.map": "/countriesApi/static/js/runtime-main.697788a5.js.map",
     "static/js/2.35d46e10.chunk.js": "/countriesApi/static/js/2.35d46e10.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.697788a5.js",
     "static/js/2.35d46e10.chunk.js",
-    "static/js/main.34400e98.chunk.js"
+    "static/js/main.b59d7ccc.chunk.js"
   ]
 }

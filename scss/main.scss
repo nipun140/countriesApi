@@ -87,6 +87,7 @@ header {
   }
 
   select {
+    cursor: pointer;
     border-radius: 0.5rem;
     transition: all 0.2s;
     font-size: 1.5rem;
@@ -107,6 +108,14 @@ header {
   transition: all 0.2s;
 }
 /////////////////////////////////////countries-container
+
+.error-msg {
+  transition: all 0.2s;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .countries-container {
   display: grid;
@@ -295,6 +304,15 @@ header {
   html {
     font-size: 10px;
   }
+
+  .countries-container {
+    .country-card {
+      .image-container {
+        height: 20rem;
+      }
+    }
+  }
+
   .modal-content {
     flex-direction: column;
 

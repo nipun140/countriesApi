@@ -117,6 +117,7 @@ header .container .color-mode:hover {
 }
 
 .input-container select {
+  cursor: pointer;
   border-radius: 0.5rem;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -138,6 +139,16 @@ header .container .color-mode:hover {
   min-height: 100vh;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+.error-msg {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .countries-container {
@@ -360,6 +371,9 @@ header .container .color-mode:hover {
 @media (max-width: 450px) {
   html {
     font-size: 10px;
+  }
+  .countries-container .country-card .image-container {
+    height: 20rem;
   }
   .modal-content {
     -webkit-box-orient: vertical;
